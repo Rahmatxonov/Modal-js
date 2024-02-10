@@ -5,12 +5,12 @@ const overlay = document.querySelector(".overlay");
 
 const addHidden = () => {
   modal.classList.add("hidden");
-  overlay.classList.add("overlay");
+  overlay.classList.add("hidden");
 };
 
 const removeHidden = () => {
   modal.classList.remove("hidden");
-  overlay.classList.remove("overlay");
+  overlay.classList.remove("hidden");
 };
 
 showBtn.addEventListener("click", removeHidden);
