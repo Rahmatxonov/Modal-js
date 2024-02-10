@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn show-btn">Show Modal</button>
+      <div class="modal hidden">
+        <div class="modal-header">
+          <h3>I Love BMW ❤️</h3>
+          <button class="close-btn">
+            <i class="close fa-solid fa-x"></i>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <h2>Modal Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+            vitae aut nemo veniam labore vero error laboriosam animi accusantium
+            quis nobis enim eveniet, neque dolorum. Numquam sunt atque
+            voluptatem dolorum ratione labore nulla nemo repudiandae qui minus,
+            consequuntur facere possimus assumenda iste, ipsa magni amet? Sequi
+            tenetur doloribus eaque porro.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
